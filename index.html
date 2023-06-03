@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <!--レスポンシブ対応-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--Font Awesomeの読み込み（style.cssの読み込みより前に書くこと-->
+    <script src="https://kit.fontawesome.com/0d9a4945d7.js" crossorigin="anonymous"></script>
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="style.css" />
+    <title>CARAVAN</title>
+  </head>
+
+  <body>
+<!--ヘッダー（題名）-->
+    <header>
+      <h1 class="heading">
+        <a href="index.html">
+        CARAVAN
+        </a>
+      </h1>
+
+      <div class="social">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      </div>
+    </header>
+
+<!--ナビゲーション-->
+    <nav>
+    <!--順序がないリスト-->
+      <ul class="nav-list">
+        <!--liはリストの内容-->
+       <li class="nav-list-item">
+         <a href="index.html">home</a>
+       </li>
+       <li class="nav-list-item">About</li>
+       <li class="nav-list-item">Topic</li>
+      </ul>
+
+    </nav>
+
+
+    <div class="main-visual">
+      <div class="main-visual-content">
+       <p class="main-visual-text">
+          The world is a book<br /> and those who do not travel<br /> read only one page.
+       </p>
+       <p class="main-visual-name">
+          St. Augustine
+       </p>
+      </div>
+    </div>
+<!--メイン（ブログ）領域-->
+    <main>
+      <section class="blog">
+  <!--ブログの題名-->
+        <h2 class="blog-heading">Recent Blogs</h2>
+　<!--ブログ内容まとまり-->
+        <div class="blog-box">
+    <!--ブログ内容１-->
+         <div class="blog-item">
+          <!--img：画像を示す　　src：画像のURL-->
+          <img class="blog-image" src="img/forest.jpg">
+          <!--sectionタグは記事をテーマごとに区切って囲む,
+          必ず見出し要素（h要素）が必要-->
+           <section class="blog-text">
+            <h3 class="blog-text-heading">
+              <a href="single.html">
+                Hopeful lessons from<br>
+                the battle to save<br>
+                rainforests
+              </a>
+            </h3>
+            <p class="blog-date">June 19, 2017</p>
+            <!--spanタグは囲んだ要素だけデザインを変更するときに使う-->
+            <span class="category">Nature</span>
+           </section>
+         </div>
+
+     <!--ブログ内容２-->
+         <div class="blog-item">
+          <!--img：画像を示す　　src：画像のURL-->
+          <img class="blog-image" src="img/desert.jpg">
+          <!--sectionタグは記事をテーマごとに区切って囲む,
+          必ず見出し要素（h要素）が必要-->
+           <section class="blog-text">
+            <h3 class="blog-text-heading">
+              <a href="single.html">
+                How to fight<br>
+                desertification and<br>
+                reverse climate change
+              </a>
+            </h3>
+            <p class="blog-date">June 17, 2017</p>
+            <!--spanタグは囲んだ要素だけデザインを変更するときに使う-->
+            <span class="category">Nature</span>
+           </section>
+         </div>
+
+     <!--ブログ内容３-->
+         <div class="blog-item">
+          <!--img：画像を示す　　src：画像のURL-->
+          <img class="blog-image" src="img/sunset.jpg">
+          <!--sectionタグは記事をテーマごとに区切って囲む,
+          必ず見出し要素（h要素）が必要-->
+           <section class="blog-text">
+            <h3 class="blog-text-heading">
+              <a href="single.html">
+                Why I'm rowing<br>
+                across the Pacific
+              </a>
+            </h3>
+            <p class="blog-date">June 16, 2017</p>
+            <!--spanタグは囲んだ要素だけデザインを変更するときに使う-->
+            <span class="category">Adventure</span>
+           </section>
+         </div>
+
+     <!--ブログ内容４-->
+         <div class="blog-item">
+          <!--img：画像を示す　　src：画像のURL-->
+          <img class="blog-image" src="img/italy.jpg">
+          <!--sectionタグは記事をテーマごとに区切って囲む,
+          必ず見出し要素（h要素）が必要-->
+           <section class="blog-text">
+            <h3 class="blog-text-heading">
+              <a href="single.html">
+                Unseen footage,<br>
+                untamedbnature
+              </a>
+            </h3>
+            <p class="blog-date">June 15, 2017</p>
+            <!--spanタグは囲んだ要素だけデザインを変更するときに使う-->
+            <span class="category">Nature</span>
+           </section>
+         </div>
+
+     <!--ブログ内容５-->
+         <div class="blog-item">
+          <!--img：画像を示す　　src：画像のURL-->
+          <img class="blog-image" src="img/asia.jpg">
+          <!--sectionタグは記事をテーマごとに区切って囲む,
+          必ず見出し要素（h要素）が必要-->
+           <section class="blog-text">
+            <h3 class="blog-text-heading">
+              <a href="single.html">
+                The case for<br>
+                engineering our food
+              </a>
+            </h3>
+            <p class="blog-date">June 14, 2017</p>
+            <!--spanタグは囲んだ要素だけデザインを変更するときに使う-->
+            <span class="category">Culture</span>
+           </section>
+         </div>
+        </div>
+        <!--ページネーション-->
+        <div class="pagination">
+          <p><<</p>
+          <p><</p>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>></p>
+          <p>>></p>
+        </div>
+      </section>
+
+ <!--サイドバー-->
+       <div class="sidebar">
+          <section class="popular">
+              <h2 class="popular-heading common-heading">Popular</h2>
+              <div class="sidebar-contents">
+                 <p class="popular-text">To solve old problems,<br>study new species</p>
+                 <p class="popular-text">Why Earth may someday<br>look like Mars</p>
+                 <p class="popular-text">What will humans look<br>like in 100 years?</p>
+                 <p class="popular-text">How to grow a forest<br>in your backyard</p>
+                 <p class="popular-text">How numans cloud evolve<br>to survive in space</p>
+              </div>
+          </section>
+
+          <section class="instagram">
+              <h2 class="instagram-heading common-heading">Instagram</h2>
+              <div class="sidebar-contents">
+                 <div class="instagram-box"></div>
+                 <div class="instagram-box"></div>
+                 <div class="instagram-box"></div>
+                 <div class="instagram-box"></div>
+                 <div class="instagram-box"></div>
+                 <div class="instagram-box"></div>
+              </div>
+          </section>
+
+          <section class="categories">
+             <h2 class="categories-heading common-heading">Categories</h2>
+             <div class="sidebar-contents">
+                 <p class="categories-text">Technology(15)</p>
+                 <p class="categories-text">Business(23)</p>
+                 <p class="categories-text">Entertainment(12)</p>
+                 <p class="categories-text">Nature(32)</p>
+                 <p class="categories-text">Education(9)</p>
+                 <p class="categories-text">Adventure(23)</p>
+                 <p class="categories-text">Communication(14)</p>
+             </div>
+          </section>
+       </div>
+    </main>
+
+<!--フッター-->
+    <footer>
+      <p class="footer-text">© All rights reserved by Infratop.Inc.</p>
+      </footer>
+
+  </body>
+</html>
